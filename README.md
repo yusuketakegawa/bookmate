@@ -14,6 +14,7 @@
 -has_many :books
 -has_many :comments
 -has_many :rooms, through: room_users
+-ham_many :talks
 
 
 ## books テーブル
@@ -55,6 +56,7 @@
 ### Association
 -has_many :room_users
 -has_many :users, through: room_users
+-has_many :talks
 
 
 
@@ -66,6 +68,20 @@
 | room   | references | null: false, foreign_key: true |
 
 ### Association
+
+-belongs_to :user
+-belongs_to :room
+
+## talks テーブル
+
+| Column    | Type       | Options                        |
+| ------    | ---------- | ------------------------------ |
+| talking   | text       | null: false,                   |
+| user      | references | null: false, foreign_key: true |
+| room      | references | null: false, foreign_key: true |
+
+### Association
+
 
 -belongs_to :user
 -belongs_to :room
