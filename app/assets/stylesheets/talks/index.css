@@ -1,0 +1,93 @@
+.talks-wrapper {
+  min-height: 100vh;
+  margin: auto;
+
+}
+
+.talk-header {
+  width: 100%;
+  border: 1px solid  blue;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-header {
+  padding-left: 50px;
+}
+
+.header-title {
+  font-size: 30px;
+  color: black;
+}
+
+.right-header {
+  padding-right: 50px;
+}
+
+.header-button {
+  font-size: 30px;
+  border: 1px solid red;
+  background-color: #CEF9DC	;
+}
+
+h2 {
+  font-size: 40px;
+  color: aqua;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.talks-form {
+  height: 500px;
+  overflow: scroll;
+  margin: 100px;
+  border:1px solid black;
+}
+
+.talks-form-sentence {
+  padding: 20px 55px;
+}
+
+.takes-mass {
+  border: 1px solid royalblue;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.upper-talks {
+  display: flex;
+}
+
+.talks-name {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+.talks-create {
+  font-weight: bold;
+}
+
+.lower-talks {
+  font-style: oblique;
+}
+
+.form {
+  text-align: center;
+}
+
+.form-input {
+  margin-bottom: 30px;
+}
+
+.talk-message {
+  width: 400px;
+}
+
+.form-submit {
+  font-size: 30px;
+  width: 200px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,31 @@
+.form_show_wrapper {
+  text-align: center;
+  min-height: 100vh;
+ }
+
+ .book-show-form {
+   min-height: 80vh;
+   padding: 50px 50px;
+ }
+
+ .book-show {
+  border: double  5px  aqua;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #EDFFBE;
+ }
+
+ .book_hedding {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+ }
+
+ .book__user {
+   font-size: 30px;
+ }
+
+ .book__btn {
+   border: 1px solid black;
+ }
