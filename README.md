@@ -19,9 +19,10 @@ https://gyazo.com/3e198fc588615be7807692a5a2478319
 
 
 ### 新規登録画面
+<img width="1440" alt="スクリーンショット 2021-03-25 17 31 14" src="https://user-images.githubusercontent.com/78135308/112445710-c8e31900-8d92-11eb-80a5-a8c4bbe954db.png">
+
 
 ### 詳細画面
-<img width="1440" alt="スクリーンショット 2021-03-25 17 31 14" src="https://user-images.githubusercontent.com/78135308/112445710-c8e31900-8d92-11eb-80a5-a8c4bbe954db.png">
 
 
 
