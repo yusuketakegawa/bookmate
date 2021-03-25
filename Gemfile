@@ -62,5 +62,7 @@ gem 'binding_of_caller'
 gem 'pry-rails'
 gem 'mini_magick'
 gem 'rspec-rails', '~> 4.0.0'
+gem "aws-sdk-s3", require: false
+
 
 
