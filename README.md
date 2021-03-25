@@ -15,6 +15,7 @@ bookmate
 ## DEMO
 
 ### トップページ
+https://gyazo.com/3e198fc588615be7807692a5a2478319
 
 
 ### 新規登録画面
