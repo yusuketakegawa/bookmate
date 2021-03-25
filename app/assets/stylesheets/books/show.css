@@ -29,3 +29,28 @@
  .book__btn {
    border: 1px solid black;
  }
+
+.new-book {
+  margin: 50px;
+  font-size: 25px;
+}
+
+.show_form_btn {
+  width: 70px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.comments_lists {
+  margin-bottom: 40px;
+}
+
+.comment_user {
+  padding-right: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -12,8 +12,13 @@
   padding: 30px;
 }
 
-.list {
+.book_show_lists {
   list-style: none;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
+
+
 
 
