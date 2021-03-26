@@ -24,10 +24,7 @@ bookmate
 
 
 ### 詳細画面
-
-
-
-### room画面
+<img width="1440" alt="スクリーンショット 2021-03-26 11 48 30" src="https://user-images.githubusercontent.com/78135308/112570388-4bb6b300-8e29-11eb-9fec-7c82e46d42fa.png">
 
 
 ## 工夫したポイント
