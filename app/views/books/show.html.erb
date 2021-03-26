@@ -6,16 +6,16 @@
         <h1 class="book_hedding">
           <%= @book.title %>
         </h1>
-        <%= link_to @book.user.nickname, "hoge", class: :book__user %>
+        <%= link_to @book.user.nickname, user_path(@book.user.id), class: :book__user %>
         <% if user_signed_in? && current_user.id == @book.user_id %>
           <div class="prototype__manage">
             <%= link_to "編集する", edit_book_path(@book.id), class: :book__btn %>
             <%= link_to "削除する", book_path(@book.id), method: :delete, class: :book__btn %>
           </div>
         <% end %>
-        <!--image-text cssがかぶっている-->
+        
         <div class="image-text">
-          <%= image_tag @book.image %>
+          <%= image_tag @book.image,  class: :book__image %>
         </div>
 
         <div class="new-book">
@@ -48,15 +48,16 @@
                 <%= f.text_field :text %>
               </div>
               <div class="actions">
-                <%= f.submit "送信する", class: :form_btn %>
+                <%= f.submit "送信する", class: :show_form_btn %>
               </div>
             <% end %> 
           <% end %>
+          <h4> コメント一覧</h4>
           <ul class="comments_lists">
             <% @comments.each do |comment| %>
               <li class="comments_list">
-                <%=  comment.text %>
                 <%= link_to comment.user.nickname, user_path(comment.user_id), class: :comment_user %>
+                 <%=  comment.text %>
               </li>
             <% end %>
           </ul>
